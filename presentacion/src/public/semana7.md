@@ -2,19 +2,15 @@
 
 # Introducción a Python
 
-## Semana 6
+## Semana 7
 <!-- .element style="text-align:center" -->
 
 ![alt text](./img/logo2.png) <!-- .element style="margin-left: auto; margin-right: auto; display: block" -->
 
 ---
 
-# Nueva forma de trabajo
-
-
----
-
 # ¿Estás tocando el banjo?
+#### (continuacion) <!-- .element style="text-align: center; margin-bottom: 40px" -->
 
 Crea una función que responda a la pregunta "¿Tocas el banjo?".
 
