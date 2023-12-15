@@ -9,6 +9,45 @@
 
 ---
 
+# Pandas
+
+Aprieta la flecha de abajo si vas a hacer el proyecto Pandas
+
+Enlaces:
+- [Introducción a Pandas](https://aprendepython.es/pypi/datascience/pandas/)
+
+--
+
+# Previo: instalar las dependencias
+
+```bash
+pip install pandas
+# Si vas a usar Excel:
+pip install xlwt openpyxl xlsxwriter xlrd
+```
+<!-- .element style="font-size: 1em" -->
+
+- Debes trabajar con Python 3. Testealo con `python --version`
+- Muy recomendable usar `venv`, pero eso para otro día
+- [`pandas`](https://pandas.pydata.org/) es la librería principal para manejo de datos. Tiene "tol power".
+- El resto son librerías para acceder a ficheros Excel
+
+--
+
+# Ejercicio
+
+Dado [este conjunto de datos](./Netflix_stock_price.zip), calcula lo siguiente:
+- Qué día se ha negociado mayor volumen
+- Que día de la semana tiene de media mayor volumen
+- Qué día de la semana han tenido las acciones más variación de precio (entre high y low)
+- En qué més ha habido mayor variación de precio (diferencia entre el precio de apertura del mes y el precio de cierre)
+
+Primero de todo, deberás cargarlo del CSV
+
+No vale usar Excel para calcularlo, pero sí para comprobarlo.
+
+---
+
 # ¿Estás tocando el banjo?
 #### (continuacion) <!-- .element style="text-align: center; margin-bottom: 40px" -->
 
