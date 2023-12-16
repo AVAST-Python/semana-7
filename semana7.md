@@ -46,6 +46,26 @@ Primero de todo, deberás cargarlo del CSV
 
 No vale usar Excel para calcularlo, pero sí para comprobarlo.
 
+
+--
+
+# Pistas
+
+- <details>
+<summary>Ojo al cargar los datos</summary>
+Piensa qué columna vas a utilizar como índice. Tienes ejemplos de carga en el documento.
+</details>
+- <details>
+<summary>Día de la semana</summary>
+<ul>
+<li>Puedes transformar el índice a datetime:<br>
+<code>df.index = pd.to_datetime(df.index)</code>
+<li>Puedes obtener el día de la semana con <code>df.index.weekday</code> y guardarlo en otra columna.
+¿Qué valores está guardando?
+<li>Se pueden agrupar datos con <code>groupby</code>
+</ul>
+</details>
+
 ---
 
 # ¿Estás tocando el banjo?
